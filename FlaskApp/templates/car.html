@@ -1,0 +1,104 @@
+<html>
+<body>
+<h1 style="background-color:PeachPuff;">LIBERTY AUTO INSURANCE QUOTE</h1>
+<h3 style="color:grey;">Fill the form below to request an auto insurance quote. You will be informed of confirmation upon consideration.</h3>
+<style>
+body {
+  background-color: SeaShell;
+}
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+/* Style the button used to pause/play the video */
+#myBtn1 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn1:hover {
+  background: #ddd;
+  color: black;
+
+}
+
+</style>
+<form method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="John">
+  <label for="mname">Middle name:</label>
+  <input type="text" id="mname" name="mname" placeholder="Liz"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+  <label for="Gender">Gender:</label><br>
+  <input type="radio" id="male" name="gender" placeholder="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" placeholder="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" placeholder="other">
+  <label for="other">Other</label><br><br>
+  <label for="phone number">Phone Number:
+</label><br>
+  <input type="text" id="Phone Number" name="Phone Number" placeholder="123-456-7890"><br><br>
+  <label for="Address">Address:</label><br>
+  <input type="text" id="Address" name="Address" placeholder="Street Address">
+  <input type="text" id="Address" name="Address" placeholder="City, Province">
+  <input type="text" id="Address" name="Address" placeholder="Postal/Zip Code"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" placeholder="hhh@example.com"><br><br>
+  <label for="License">Driver's License Number:</label><br>
+  <input type="text" id="License" name="License"><br><br>
+  <label for="Vehicle">Vehicle Details:</label><br>
+  <input type="text" id="Vehicle" name="Vehicle" placeholder="Type">
+  <input type="text" id="Vehicle" name="Vehicle" placeholder="Model">
+  <input type="text" id="Vehicle" name="Vehicle" placeholder="Year"><br><br>
+  <input type="text" id="Vehicle" name="Vehicle" placeholder="Registration Id"><br><br>
+  <label for="state">State where vehicle was registered:</label>
+  <input type="text" id="state" name="state"><br><br>
+  <label for="radius">Radius of operation (Nearest Radius):</label><br>
+  <input type="radio" id="number" name="radius">
+  <label for="number">Local (0-50 miles)</label><br>
+  <input type="radio" id="number" name="radius">
+  <label for="female">Intermediate (51-200 miles)</label><br>
+  <input type="radio" id="number" name="radius">
+  <label for="female">Regional (200-500 miles)</label><br>
+  <input type="radio" id="number" name="radius">
+  <label for="female">Long Distances (500+ miles)</label><br><br>
+  <label for="Number">Amount of coverage required:</label>
+  <input type="text" id="Number" name="Number" placeholder="$"><br><br>
+  <label for="details">Any other details to help us make an informed decision:</label><br>
+  <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+  <!--input type="submit" class="btn btn-info" value="Submit" -->
+  <!--<input type="submit" value="Submit">
+  <input type="reset">-->
+  <CENTER>
+    <input type="submit" value="Submit" class="class=btn btn-info" id ="myBtn">
+    <input type="reset" class="class=btn btn-info" id ="myBtn1">
+  <!--a href="{{url_for('carf')}}" type="submit" class="class=btn btn-info" role="button" id ="myBtn" >Submit</a>
+  <a href="{{url_for('car')}}"  class="class=btn btn-info" role="button" id ="myBtn1">Reset</a-->
+  </CENTER>
+</form>
+<script>
+  var btn = document.getElementById("myBtn");
+  var btn1 = document.getElementById("myBtn1");
+</script>
+</body>
+</html>

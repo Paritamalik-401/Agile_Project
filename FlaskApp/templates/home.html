@@ -1,0 +1,102 @@
+<html>
+<body>
+<h1 style="background-color: Silver;">LIBERTY HOME INSURANCE QUOTE</h1>
+<h3 style="color:grey;">Fill the form below to request a rental home insurance quote. You will be informed of confirmation upon consideration.</h3>
+<style>
+body {
+  background-color: SeaShell;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+/* Style the button used to pause/play the video */
+#myBtn1 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn1:hover {
+  background: #ddd;
+  color: black;
+
+}
+
+</style>
+<!--<style>
+body {
+  background-color: SeaShell;
+}
+
+</style>-->
+<form method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="John">
+  <label for="mname">Middle name:</label>
+  <input type="text" id="mname" name="mname" placeholder="Liz">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+  <label for="Applicant">Co-Applicant:</label>
+    <select id="Coap" name="cars">
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+    </select><br><br>
+  <!--<input type="text" id="Applicant" name="Applicant" placeholder="Yes/No"><br><br>-->
+  <label for="fname">If yes, First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="First Name">
+  <label for="mname">Middle name:</label>
+  <input type="text" id="mname" name="mname" placeholder="Middle Name">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+  <label for="phone number">Phone Number:
+</label><br>
+  <!--<input type="text" id="Phone Number" name="Phone Number" placeholder="123-456-7890">-->
+  <input type="text" id="Phone Number" name="Phone Number" placeholder="123-456-7890"><br><br>
+   <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" placeholder="hhh@example.com"><br><br>
+  <label for="Address">Full Address to Insure with Postal Code:</label><br>
+  <textarea id="Address" name="Address" row="1" cols="10"></textarea>
+  <!--<textarea id="Address" name="Address" row="2" cols="50">Street Address</textarea><br>
+  <textarea id="Address" name="Address" row="1" cols="10">City, Province</textarea>
+  <textarea id="Address" name="Address" row="1" cols="10">Postal/Zip Code</textarea>--><br><br>
+  <label for="years">Coverage Period:</label>
+  <input type="years" id="years" name="years" placeholder="in years"><br><br>
+  <label for="Date">From:</label>
+  <input type="Date" id="Date" name="Date">
+  <label for="Date">To:</label>
+  <input type="Date" id="Date" name="Date"><br><br>
+  <label for="Number">Amount of coverage required:</label>
+  <input type="text" id="Number" name="Number" placeholder="$"><br><br>
+  <!--input type="submit" class="btn btn-info" value="Submit" /-->
+  <!--<input type="submit" value="Submit">
+  <input type="reset">-->
+  <CENTER>
+    <input type="submit" value="Submit" id ="myBtn" class="btn btn-info">
+    <input type="reset" id ="myBtn1" class="btn btn-info">
+  <!--a href="{{url_for('homef')}}" class="btn btn-info" role="button" id ="myBtn" >Submit</a>
+  <a href="{{url_for('home')}}"  class="btn btn-info" role="button" id ="myBtn1">Reset</a-->
+  </CENTER>
+</form>
+<script>
+  var btn = document.getElementById("myBtn");
+  var btn1 = document.getElementById("myBtn1");
+</script>
+</body>
+</html>
